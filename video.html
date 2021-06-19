@@ -62,101 +62,79 @@
             margin: auto;
         }
         
-        .jumbotron {
+        article {
             padding-top: 2rem;
             padding-bottom: 2rem;
             color: rgba(255, 255, 255, 0.8);
-            text-size: 30px;
             text-align: center;
             background-image: url('https://pbs.twimg.com/media/E3cXe0mVIAEzZ7O?format=jpg&name=4096x4096');
             background-position: center;
             background-size: cover;
         }
-        
-        .jumbotron hr {
-            margin: 5%;
-            height: 0.25rem;
-            color: rgba(255, 255, 255, 1);
-        }
-        
-        .teacher {
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-        
-        .teacher .col-12 {
-            margin-top: 5%;
-            margin-bottom: 5%;
-        }
-        
-        .card {
-            margin: auto;
-        }
     </style>
 </head>
 
 <body>
-    <!-- Nav區塊 -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <!--首頁圖片-->
-            <a class="navbar-brand" href="https://b10956063.github.io/Final/index.html"><img src="https://s.pngkit.com/png/small/228-2288754_logo-seventeen-png-seventeen-2018-seventeen-logo.png"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <header>
+        <!-- Nav區塊 -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <!--首頁圖片-->
+                <a class="navbar-brand" href="https://b10956063.github.io/Final/index.html"><img src="https://s.pngkit.com/png/small/228-2288754_logo-seventeen-png-seventeen-2018-seventeen-logo.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <!--首頁連結-->
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="https://b10956063.github.io/Final/index.html">HOMEPAGE</a>
-                    </li>
-                    <!--成員-->
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://b10956063.github.io/Final/member.html">MEMBER</a>
-                    </li>
-                    <!--影片-->
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="https://b10956063.github.io/Final/video.html ">VIDEO</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <!--首頁連結-->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://b10956063.github.io/Final/index.html">HOMEPAGE</a>
+                        </li>
+                        <!--成員-->
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://b10956063.github.io/Final/member.html">MEMBER</a>
+                        </li>
+                        <!--影片-->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://b10956063.github.io/Final/video.html ">VIDEO</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   SOCIAL MEDIA
                 </a>
-                        <!--下拉式官方連結-->
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="http://www.seventeen-17.com/">OFFICAL SITE</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="https://twitter.com/pledis_17?lang=zh-tw">Twitter</a></li>
-                            <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCfkXDY7vwkcJ8ddFGz8KusA">Youtube</a></li>
-                            <li><a class="dropdown-item" href="https://cafe.daum.net/pledis-17?q=%EC%84%B8%EB%B8%90%ED%8B%B4%28SEVENTEEN%29+%EA%B3%B5%EC%8B%9D+%ED%8C%AC%EC%B9%B4%ED%8E%98">Fan Cafe</a></li>
-                            <li><a class="dropdown-item" href="https://www.facebook.com/seventeennews">Facebook</a></li>
-                            <li><a class="dropdown-item" href="https://www.instagram.com/saythename_17/">Instagram</a></li>
-                        </ul>
-                    </li>
-                    <!--日本-->
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="https://www.seventeen-17.jp/">JAPAN OFFICAL</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Seventeen" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                            <!--下拉式官方連結-->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="http://www.seventeen-17.com/">OFFICAL SITE</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="https://twitter.com/pledis_17?lang=zh-tw">Twitter</a></li>
+                                <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCfkXDY7vwkcJ8ddFGz8KusA">Youtube</a></li>
+                                <li><a class="dropdown-item" href="https://cafe.daum.net/pledis-17?q=%EC%84%B8%EB%B8%90%ED%8B%B4%28SEVENTEEN%29+%EA%B3%B5%EC%8B%9D+%ED%8C%AC%EC%B9%B4%ED%8E%98">Fan Cafe</a></li>
+                                <li><a class="dropdown-item" href="https://www.facebook.com/seventeennews">Facebook</a></li>
+                                <li><a class="dropdown-item" href="https://www.instagram.com/saythename_17/">Instagram</a></li>
+                            </ul>
+                        </li>
+                        <!--日本-->
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://www.seventeen-17.jp/">JAPAN OFFICAL</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Seventeen" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
-    <!-- Jumbotron區塊 -->
-    <div class="jumbotron ">
-        <!-- 標題-->
+        </nav>
+    </header>
+    <article>
         <h1 class="display-4 ">SEVENTEEN 8th Mini Album [Your Choice] </h1>
         <hr class="my-4 ">
-        <video width="50%" height="50%" autoplay muted controls>
-            <source src="https://www.youtube.com/watch?v=yCvSR4lSqTg" type="video/mp4">
-            載入失敗:( 
-        </video>
-    </div>
+        <iframe width="1020" height="630" src="https://www.youtube.com/embed/yCvSR4lSqTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
