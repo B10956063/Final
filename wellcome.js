@@ -1,1 +1,1 @@
-alert("(⁎⁍̴̛ᴗ⁍̴̛⁎)")
+alert("wellcome :)")
